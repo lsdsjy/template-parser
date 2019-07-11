@@ -47,4 +47,4 @@ export class DocumentNode extends NodeBase {
     type = 'DOCUMENT' as const
 }
 
-type Node = ElementNode | ContentNode
+type Node = DocumentNode | ElementNode | ContentNode
